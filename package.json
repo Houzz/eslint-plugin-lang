@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-lang",
+  "name": "@houzz/eslint-plugin-lang",
   "version": "1.2.0",
   "description": "Lint .lang json files",
   "keywords": [
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brett-hobbs/eslint-plugin-lang"
+    "url": "https://github.com/Houzz/eslint-plugin-lang"
   },
   "dependencies": {
     "jshint": "^2.8.0"
@@ -29,6 +29,9 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "url": "https://github.com/brett-hobbs/eslint-plugin-lang",
-  "license": "UNLICENSED"
+  "url": "https://github.com/Houzz/eslint-plugin-lang",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Houzz"
+  },
 }
