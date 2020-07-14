@@ -30,5 +30,5 @@
     "node": ">=0.10.0"
   },
   "url": "https://github.com/brett-hobbs/eslint-plugin-lang",
-  "license": "ISC"
+  "license": "UNLICENSED"
 }
