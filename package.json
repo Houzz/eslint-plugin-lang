@@ -19,7 +19,7 @@
     "url": "https://github.com/Houzz/eslint-plugin-lang"
   },
   "dependencies": {
-    "jshint": "^2.8.0"
+    "jshint": "^2.11.2"
   },
   "devDependencies": {
     "chai": "^3.4.1",
