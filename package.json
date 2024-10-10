@@ -1,6 +1,6 @@
 {
   "name": "@houzz/eslint-plugin-lang",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Lint .lang json files",
   "keywords": [
     "eslint",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "~7.32.0",
-    "mocha": "^8.1.0"
+    "mocha": "^10.7.3"
   },
   "engines": {
     "node": ">=0.10.0"
