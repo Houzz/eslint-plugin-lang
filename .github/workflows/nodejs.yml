@@ -13,9 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.HOUZZ_CI_TOKEN }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.HOUZZ_CI_TOKEN }}
     - run: npm test
