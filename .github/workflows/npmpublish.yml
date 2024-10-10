@@ -46,7 +46,7 @@ jobs:
 
       - name: Publish package to github registry
         run: |
-          npm publish --tag "latest" ./dist > publish_message.txt
+          npm publish --tag "latest" > publish_message.txt
           echo "##[set-output name=message;]$(cat publish_message.txt)"
         id: publish_package
         env:
